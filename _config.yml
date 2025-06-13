@@ -9,8 +9,8 @@
 title:       Type
 email:       ''
 description: ''
-baseurl:     '' # The subpath of your site, e.g. /blog
-url:         'https://type-jekyll.aspirethemes.com/' # The base hostname & protocol for your site
+baseurl:     '/blog' # The subpath of your site, e.g. /blog
+url:         'https://sukisukis.github.io/Blog/' # The base hostname & protocol for your site
 twitter:     ''
 github:      ''
 instagram:   ''
@@ -19,6 +19,7 @@ facebook:    ''
 markdown:  kramdown
 permalink: pretty
 paginate:  10
+paginate_path: "/Blog/page:num"
 
 sass:
   style: compressed
