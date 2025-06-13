@@ -7,8 +7,8 @@ paginate: true
 <div class='o-wrapper'>
   <div class='o-grid'>
     {% for post in paginator.posts %}
-      {% include post-card.liquid %}
-    {% endfor %}
+  {% include post-card.liquid post=post %}
+{% endfor %}
   </div>
 
   <div class='o-grid'>
